@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pre": "npx prettier --write ."
   },
   "dependencies": {
     "@tanstack/react-query": "^5.69.0",
